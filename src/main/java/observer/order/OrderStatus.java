@@ -1,4 +1,4 @@
-package Observer.order;
+package observer.order;
 
 public enum OrderStatus {
     ZAREJESTROWANE,

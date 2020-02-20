@@ -1,6 +1,6 @@
-package Observer.notification;
+package observer.notification;
 
-import Observer.order.Order;
+import observer.order.Order;
 
 public class Email {
     public void update(Order order) {
