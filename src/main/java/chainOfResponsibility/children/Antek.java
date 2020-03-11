@@ -2,11 +2,11 @@ package chainOfResponsibility.children;
 
 import chainOfResponsibility.request.MotherRequest;
 
-public class Ania extends Child {
+public class Antek extends Child {
     @Override
     public void processRequest(MotherRequest motherRequest) {
-        if (motherRequest.getShelf().equals(Shelf.LOW)) {
-            System.out.println("Ania zdjęła słoik z półki!");
+        if (motherRequest.getShelf().equals(Shelf.HIGH)) {
+            System.out.println("Antek zdjął słoik z półki!");
         } else {
             getTallerChild().processRequest(motherRequest);
         }
